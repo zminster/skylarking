@@ -11,7 +11,7 @@ void setup() {
 }
 
 void draw() {
-  clear();
+  background(255,0,0); 
   Star curr;
   for (int i = 0; i < stars.size(); i++) {
     curr = stars.get(i);
